@@ -1,34 +1,4 @@
 # Calendar Date Picker Application
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in development mode.  
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.  
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in interactive watch mode.  
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.  
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified, and the filenames include the hashes.  
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ## Project Overview
 
 This is a simple **Calendar Date Picker** application that allows users to select check-in and check-out dates. The app is built using **React** and **Material UI's x-date-pickers** and includes localization for the Polish language using `date-fns`. The app ensures that no past dates can be selected.
@@ -39,6 +9,12 @@ This is a simple **Calendar Date Picker** application that allows users to selec
 - **Disable Past Dates**: The app prevents users from selecting past dates.
 - **Localization**: The app uses Polish (pl) locale for date formatting with `date-fns/locale/pl`.
 - **Dynamic Date Display**: Selected dates are dynamically displayed in `dd/MM/yyyy` format.
+
+## Technologies
+- **React**: A library for building user interfaces
+- **Material UI**: A set of React components with material design
+- **Date-Fns**: A tool for manipulating dates
+- **Day.js**: A lightweight date library
 
 ## Project Structure
 
